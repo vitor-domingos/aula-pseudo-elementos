@@ -1,0 +1,33 @@
+.first-letter::first-letter {
+  color: #0000ff;
+}
+
+.first-line::first-line {
+  color: #ff0000;
+}
+
+.first-line::first-letter {
+  color: #1e90ff;
+}
+
+li::marker {
+  color: #00ced1;
+  font-size: 23px;
+}
+
+/* h2::before{
+content: url('./images/logo.jpg');
+} */
+
+.before::before {
+  content: "";
+  background: url("./images/logo.jpg") center center no-repeat;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+}
+
+.after::after{
+content: url(./images/logo.jpg);
+}
+
